@@ -1,0 +1,25 @@
+{
+  "short_name": "UruMEE | Homegrown Indian Social Media App making Creativity and Collaboration a Priority",
+  "name": "Welcome to the modern day creator driven world, where contents and creators complement and uplift each other's creative intelligence. An Art House for creators of all mediums and forms. Redefining User Generated Content creation through one Inspiration & Collaboration at a time.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
