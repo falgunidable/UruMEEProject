@@ -1,0 +1,7 @@
+* {
+	font-family: Poppins;
+	color: #006aa6;
+}
+.background {
+	background-image: linear-gradient(to right bottom, #d1effe, #d3f1f3, #def2ea, #e9f1e7, #f1f0e9);
+}

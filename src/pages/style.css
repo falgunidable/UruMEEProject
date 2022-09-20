@@ -1,0 +1,799 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+.navbarColor{
+    background-image: linear-gradient(to right bottom, #d1effe, #d3f1f3, #def2ea, #e9f1e7, #f1f0e9);
+}
+#hLogo {
+	width: 65%;
+}
+.hrline {
+	height: 1px;
+	background-image: linear-gradient(to right, #006aa6, #4288bc, #6ba7d2, #93c6e8, #bce6ff)
+}
+
+#terms,#privacy,#copy{
+    cursor: pointer
+}
+
+li.active {
+	background-color: #555;
+}
+
+.gradient {
+	color: black;
+}
+
+.flex-container {
+	display: flex;
+}
+
+.flex-container1 {
+	display: flex;
+}
+
+.flex-child:first-child {
+	margin-right: 20px;
+}
+
+.grid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 5vw 12vw;
+	grid-template-rows: 4vh 5vh;
+	grid-template-areas: "left right-up" "left right-down";
+	background-color: black;
+	border-radius: 12px;
+	box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.5);
+}
+.inner {
+	text-align: center;
+}
+.top1 {
+	padding-top: 140px;
+	padding-left: 100px;
+	padding-bottom: 5px;
+	padding-right: 100px;
+	font-size: 16px;
+}
+
+.img1 {
+	width: 80%;
+	filter: drop-shadow(0.1rem 0.1rem 0.1rem #000000);
+}
+.img2 {
+    float: right;
+	width: 80%;
+	filter: drop-shadow(0.1rem 0.1rem 0.1rem #000000);
+}
+.img3 {
+	width: 85%;
+	filter: drop-shadow(0.1rem 0.1rem 0.1rem #000000);
+}
+.img4 {
+	float: right;
+	width: 82%;
+	margin-right: 2rem;
+	filter: drop-shadow(0.1rem 0.1rem 0.1rem #000000);
+}
+.top2 {
+	padding-top: 5px;
+	padding-left: 100px;
+	padding-bottom: 30px;
+	font-size: 16px;
+}
+
+.top3 {
+	padding-left: 100px;
+	padding-right: 50px;
+	font-size: 16px;
+}
+
+#launch {
+    float: right;
+    margin-top: 2rem;
+	width: 60%;
+	filter: drop-shadow(0.25rem 0.25rem 0.5rem #000000);
+}
+.launch {
+	text-align: center;
+	font-size: 40px;
+	margin-top: rem;
+	margin-right: 15rem;
+}
+
+.left {
+	grid-area: left;
+	text-align: right;
+	padding: 5px;
+}
+.right-up {
+	grid-area: right-up;
+	padding: 4px;
+	margin-top: 0.8rem;
+	font-size: 16px;
+	color: white;
+}
+
+#app{
+    width:50%;
+    margin-top: 10px
+}
+#play{
+    width:50%;
+    margin-top: 10px
+}
+
+.bloc1,
+.bloc2 {
+	display: inline;
+}
+#soc {
+	font-size: 40px;
+}
+
+#table1 {
+	margin-left: 38%;
+}
+
+#socials {
+	width: 50%;
+	text-align: center;
+	margin-left: 24%;
+	filter: drop-shadow(0.1rem 0.1rem 0.2rem #000000);
+}
+
+/* MENU1  */
+.menu {
+	font-size: 18px;
+	padding: 80px;
+	box-shadow: 5px 10px 18px #888888;
+	border-radius: 20px;
+}
+#explore {
+	float: right;
+	width: 30%;
+	margin-top: 30px;
+	filter: drop-shadow(0.1rem 0.1rem 0.1rem #000000);
+}
+#inspire {
+	float: left;
+	width: 30%;
+	margin-top: 70px;
+	filter: drop-shadow(0.1rem 0.1rem 0.1rem #000000);
+}
+#collab2{
+    width: 25%;
+    margin-top: 2rem;
+}
+.collabImage {
+	float: right;
+	width: 20%;
+	filter: drop-shadow(0.1rem 0.1rem 0.1rem #000000);
+}
+#camp {
+	float: left;
+	width: 25%;
+	margin-top: 40px;
+	filter: drop-shadow(0.1rem 0.1rem 0.1rem #000000);
+}
+#coin {
+	float: right;
+	width: 25%;
+	filter: drop-shadow(0.1rem 0.1rem 0.1rem #000000);
+}
+
+/* MENU2  */
+#styleMenu2 {
+	padding-top: 5px;
+	padding-left: 90px;
+	padding-right: 90px;
+	padding-bottom: 50px;
+}
+.menu2 {
+	font-size: 18px;
+	padding: 50px;
+}
+
+#lastCont{
+ width: 170%   
+}
+#lastInst,#img51{
+        display: block
+    }
+#mobInst{
+    display: none
+}
+
+#img1 {
+	width: 80%;
+    float: right;
+	filter: drop-shadow(0.1rem 0.1rem 0.1rem #000000);
+}
+#img2 {
+	width: 80%;
+    float: right;
+	filter: drop-shadow(0.1rem 0.1rem 0.1rem #000000);
+}
+#img3 {
+	width: 80%;
+    float: right;
+	filter: drop-shadow(0.1rem 0.1rem 0.1rem #000000);
+}
+#img4 {
+	width: 60%;
+    float: right;
+	filter: drop-shadow(0.1rem 0.1rem 0.1rem #000000);
+}
+#img5 {
+	width: 65%;
+    float: right;
+    margin-left: 2rem;
+    margin-top: 17rem;
+	filter: drop-shadow(0.1rem 0.1rem 0.1rem #000000);
+}
+#img51 {
+	width: 65%;
+    float: right;
+    margin-left: 2rem;
+    margin-top: 13rem;
+	filter: drop-shadow(0.1rem 0.1rem 0.1rem #000000);
+}
+.colorHighlight {
+	color: #ff3d47;
+}
+/* MENU3  */
+#styleMenu3{
+   font-size:18px;
+    padding:50px 
+}
+
+#faq {
+	width: 30%;
+}
+.buttonStyle {
+	background: transparent;
+	border: none;
+	width: 10%;
+	cursor: pointer;
+}
+.imgSize {
+	width: 150%;
+    margin-top: 1.5rem
+}
+#first,
+#second,
+#third,
+#fourth,
+#fifth,
+#sixth,
+#seventh {
+	display: none;
+	margin-left: 20px;
+}
+
+#topTerm {
+	padding-top: 50px;
+	padding-left: 90px;
+	padding-right: 90px;
+	padding-bottom: 50px;
+}
+#foot1Head{
+   margin-left: 3rem 
+}
+#foot2Head{
+   margin-left: 2rem 
+}
+#foot3Head{
+   margin-right: 1rem 
+}
+#foot4Head{
+   margin-right: 4rem 
+}
+
+@media screen and (max-width: 600px) {
+	.img1 {
+	}
+	.img2 {
+	}
+	.img3 {
+	}
+	.img4 {
+	}
+	.top1 {
+		font-size: 14px;
+	}
+	.top2 {
+		font-size: 15px;
+		padding-right: 50px;
+	}
+	.top3 {
+		font-size: 15px;
+	}
+	#launch {
+		margin-left: 8%;
+	}
+	.launch {
+		text-align: center;
+		font-size: 22px;
+		margin-top: 10px;
+	}
+	.grid {
+		grid-template-columns: 7vw 16vw;
+		grid-template-rows: 4vh 5vh;
+	}
+	#table1 {
+		margin-left: 26%;
+	}
+	.right-up {
+		margin-top: 7px;
+		font-size: 10px;
+	}
+	.right-down {
+		padding: 2px;
+		font-size: 14px;
+		color: white;
+	}
+	.left {
+		padding: 1px;
+	}
+	#socials {
+		width: 60%;
+		text-align: center;
+		margin-left: 15%;
+	}
+
+	.icon {
+		width: 52%;
+	}
+
+	.discord {
+		width: 50%;
+	}
+	/*MENU1*/
+	/*MENU2*/
+	/* MENU2  */
+
+	.menu2 {
+		font-size: 12px;
+		padding: 18px;
+	}
+	#img1 {
+		width: 46%;
+		margin-top: 5rem;
+	}
+	#img2 {
+		width: 40%;
+		margin-top: 3rem;
+	}
+	#img3 {
+		width: 38%;
+		margin-top: 9rem;
+	}
+	#img4 {
+		width: 28%;
+		margin-top: 1rem;
+	}
+	#img5 {
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#hLogo {
+		width: 95%;
+	}
+	.img1 {
+        float: none;
+		width: 85%;
+        margin-top: 2rem
+	}
+	.img2 {
+		width: 85%;
+        margin-top: 2rem
+	}
+	.img3 {
+		float: none;
+		width: 90%;
+	}
+	.img4 {
+		width: 85%;
+        margin-right: 1rem
+	}
+	.top1 {
+		font-size: 13px;
+	}
+	.top2 {
+		font-size: 13px;
+	}
+	.top3 {
+		font-size: 13px;
+	}
+	#launch {
+		width: 75%;
+		margin-top: 3rem;
+	}
+	.launch {
+		text-align: center;
+		font-size: 24px;
+		margin-top: 70px;
+		margin-right: 6rem;
+	}
+	.grid {
+		grid-template-columns: 5vw 13vw;
+		grid-template-rows: 3vh 3vh;
+	}
+	#table1 {
+		margin-left: 38%;
+	}
+	.right-up {
+		margin-top: 7px;
+		font-size: 10px;
+	}
+	.right-down {
+		padding: 2px;
+		font-size: 14px;
+		color: white;
+	}
+	.left {
+		padding: 1px;
+	}
+	#socials {
+		width: 50%;
+		text-align: center;
+		margin-left: 25%;
+	}
+
+	.icon {
+		width: 20%;
+	}
+
+	.discord {
+		width: 35%;
+	}
+
+	/*MENU1*/
+	.menu {
+		font-size: 14px;
+		padding: 40px;
+	}
+	#explore {
+		width: 47%;
+		margin-top: 70px;
+	}
+	#inspire {
+		width: 45%;
+		margin-top: 80px;
+	}
+	#collab1 {
+		width: 35%;
+        margin-top: 1rem;
+        margin-bottom: 0rem
+	}
+    #collab2{
+        width: 40%;
+        margin-top: 4rem;
+        margin-bottom: 0rem
+    }
+    #collab3{
+        width: 35%;
+        margin-top: 2rem;
+        margin-bottom: 0rem
+    }
+	#camp {
+		width: 40%;
+		margin-top: 100px;
+	}
+	#coin {
+		width: 40%;
+		margin-top: 35px;
+	}
+	/* MENU2  */
+
+	.menu2 {
+		font-size: 14px;
+		padding: 18px;
+	}
+	#styleMenu2 {
+		padding-top: 1px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 50px;
+	}
+	#img1 {
+		width: 90%;
+		margin-top: 1rem;
+	}
+	#img2 {
+		width: 90%;
+		margin-top: 0.2rem;
+	}
+	#img3 {
+		width: 90%;
+		margin-top: 1rem;
+	}
+	#img4 {
+		width: 70%;
+		margin-top: 0rem;
+	}
+	#img5 {
+		width: 80%;
+	}
+	/*MENU3*/
+	#faq {
+		width: 45%;
+	}
+}
+@media screen and (max-width: 560px){
+    .imgSize {
+		width: 200%;
+        margin-left: 3rem
+	}
+}
+@media screen and (max-width: 414px) {
+	.top1 {
+		padding-top: 140px;
+		font-size: 13px;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+	}
+
+	.img1 {
+		float: none;
+        margin-left: 4rem;
+        width: 65%
+	}
+	.img2 {
+        margin-top: 1rem;
+        width: 60%;
+        margin-left: 3.5rem;
+        float: none
+	}
+	.img3 {
+		float: none;
+		width: 65%;
+        margin-left: 4rem;
+	}
+	.img4 {
+        margin-top: 1rem;
+		float: none;
+		width: 65%;
+        margin-left: 4rem;
+	}
+	.top2 {
+		padding-top: 2px;
+		padding-left: 2.5rem;
+        padding-right: 2.5rem;
+		font-size: 13px;
+	}
+
+	.top3 {
+		padding-left: 2.5rem;
+		padding-right: ,.5rem;
+		font-size: 13px;
+	}
+	.left {
+		padding: 4px;
+        float: right
+	}
+	#socials {
+		width: 80%;
+		text-align: center;
+		margin-left: 5%;
+	}
+
+	.icon {
+		width: 30%;
+	}
+    .link {
+		width: 100%;
+        margin-left: 1rem;
+	}
+
+	#soc {
+		font-size: 35px;
+	}
+	#launch {
+        float: none;
+		width: 100%;
+        margin-left: 6rem;
+	}
+	.launch {
+		text-align: center;
+		font-size: 20px;
+		margin-left: 40px;
+		margin-right: 2rem;
+        margin-bottom: 1.5rem
+	}
+	.grid {
+		grid-template-columns: 8vw 27vw;
+		grid-template-rows: 4vh 4vh;
+	}
+	#table1 {
+		margin-left: 8%;
+	}
+	.right-up {
+        padding: 1px;
+        margin-left: 0.1rem;
+		margin-top: 1rem;
+		font-size: 12px;
+	}
+    #app{
+        width:90%
+    }
+    #play{
+        width:90%
+    }
+	/*MENU1*/
+	.menu {
+		font-size: 12px;
+		padding: 18px;
+		text-align: center;
+	}
+	#explore {
+		width: 70%;
+		margin-top: 10px;
+		margin-right: 1.5rem;
+		margin-bottom: 1rem;
+	}
+	#inspire {
+		width: 80%;
+		margin-top: 10px;
+		margin-left: 2rem;
+		margin-bottom: 1rem;
+	}
+	#collab1 {
+        float: none;
+		width: 60%;
+        margin-top: 0rem;
+        margin-left: 3rem;
+        margin-bottom: 0rem
+	}
+    #collab2{
+        float: none;
+        width: 75%;
+        margin-top: 0rem;
+        margin-left: 2.5rem;
+        margin-bottom: 0rem
+    }
+    #collab3{
+        float: none;
+        width: 70%;
+        margin-top: 0rem;
+        margin-left: 3.5rem;
+        margin-bottom: 0rem
+    }
+	#camp {
+		width: 70%;
+		margin-top: 10px;
+		margin-left: 3rem;
+		margin-bottom: 1rem;
+	}
+	#coin {
+		width: 70%;
+		margin-top: 10px;
+		margin-right: 3rem;
+		margin-bottom: 1rem;
+	}
+	/* MENU2  */
+
+	.menu2 {
+		font-size: 13px;
+		padding: 1px;
+		text-align: center;
+	}
+    #lastCont{
+ width: 100%   
+}
+	#styleMenu2 {
+		padding-top: 1px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 50px;
+	}
+	.flex-container1 {
+		display: contents;
+	}
+	#img1 {
+		width: 70%;
+        float: none
+	}
+	#img2 {
+		width: 75%;
+        float: none
+	}
+	#img3 {
+		width: 70%;
+        float: none;
+		margin-top: 1rem;
+	}
+	#img4 {
+		width: 50%;
+        margin-left: 0%;
+        float: none
+	}
+    #img5{
+        margin-top: 0rem;
+    }
+	#inst {
+		text-align: left;
+	}
+	#img5 {
+		float: none;
+		width: 60%;
+		margin-bottom: 1rem;
+	}
+    #lastInst,#img51{
+        display: none
+    }
+    #mobInst{
+    display: block;
+        margin-top: 2rem;
+    }
+    
+	/*MENU3*/
+	#styleMenu3 {
+		padding: 20px;
+	}
+	#faq {
+		width: 80%;
+	}
+	#faqt {
+		font-size: 14px;
+	}
+	.imgSize {
+		width: 250%;
+        margin-left: 3rem
+	}
+	#topTerm {
+		padding-top: 30px;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 30px;
+	}
+	.flex-child {
+		font-size: 13px;
+	}
+	#foot1Head {
+		margin-left: 9rem;
+	}
+	#foot2Head {
+		margin-left: 8.7rem;
+	}
+	#foot3Head {
+		margin-left: 7.4rem;
+	}
+	#foot4Head {
+		margin-left: 4rem;
+	}
+}
+@media screen and (max-width: 375px){
+    #foot1Head {
+		margin-left:8rem;
+	}
+	#foot2Head {
+		margin-left: 7.7rem;
+	}
+	#foot3Head {
+		margin-left: 6.4rem;
+	}
+	#foot4Head {
+		margin-left: 4rem;
+	}
+    .imgSize {
+		width: 400%;
+        margin-left: 3rem
+	}
+}
+@media screen and (max-width: 320px){
+    .imgSize {
+		width: 500%;
+        margin-left: 3rem
+	}
+}
+@media screen and (max-width: 250px){
+    .imgSize {
+		width: 5500%;
+        margin-left: 3rem
+	}
+}
